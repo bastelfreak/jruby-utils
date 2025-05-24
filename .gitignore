@@ -30,3 +30,7 @@ acceptance/scripts/hosts.cfg
 /dev-resources/i18n/bin
 /resources/locales.clj
 /resources/**/Messages*.class
+/jruby-utils.iml
+/.lsp/
+/.idea/
+/.clj-kondo/

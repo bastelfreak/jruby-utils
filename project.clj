@@ -1,6 +1,6 @@
-(defproject puppetlabs/jruby-utils "5.2.1-SNAPSHOT"
+(defproject openvoxproject/jruby-utils "5.2.1-SNAPSHOT"
   :description "A library for working with JRuby"
-  :url "https://github.com/puppetlabs/jruby-utils"
+  :url "https://github.com/openvoxproject/jruby-utils"
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
 
@@ -30,8 +30,8 @@
                  [puppetlabs/ring-middleware]]
 
   :deploy-repositories [["releases" {:url "https://clojars.org/repo"
-                                     :username :env/clojars_jenkins_username
-                                     :password :env/clojars_jenkins_password
+                                     :username :env/CLOJARS_USERNAME
+                                     :password :env/CLOJARS_PASSWORD
                                      :sign-releases false}]]
 
   ;; By declaring a classifier here and a corresponding profile below we'll get an additional jar
